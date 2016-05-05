@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1462335553773.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A919A3D7",
+    "lastKnownWriteTime" : 4424831296,
+    "last_content_update" : 1462335553773,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "515qfls09b",
+        "caption" : "tripData",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=tripData&cache_key=515qfls09b",
+        "displayedObservations" : 10000,
+        "environment" : "",
+        "object" : "tripData",
+        "totalObservations" : 10000,
+        "variables" : 2
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

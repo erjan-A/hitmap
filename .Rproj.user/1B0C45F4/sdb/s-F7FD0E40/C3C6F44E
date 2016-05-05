@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\nlibrary(leaflet)\n\nshinyUI(navbarPage(windowTitle=\"Hitmap\" ,tags$img(src=\"img/logo.png\", class=\"\"), theme = \"css/full.css\",\n  \n  mainPanel(\n    fluidRow(\n      column(4,   wellPanel(div(class=\"navbar-collapse\", \n                      div(class=\"search_form\", \n                          div(class=\"\", id=\"nl-form\",\n                              tags$span(\"I am travelling to\"), textInput(\"city\", label=NA, value = \"San Francisco\", width = \"115px\"), tags$br(), \n                              tags$span(\" with\"), selectInput(\"accompany\", selectize = FALSE, label=NA, choices = list(\"family\" = 1, \"friends\" = 2)),\n                              tags$span(\" of\"),  selectInput(\"accompanynumber\", selectize = FALSE, label=NA, choices = list(1, 2, 3, 4, 5)), tags$span(\" person(s)\"), \n                              tags$span(\" for\"), selectInput(\"purpose\", label=NA, selectize = FALSE, choices = list(\"sightseeing\" = 1, \"shopping\" = 2)), tags$br(), \n                              tags$span(\" on\"), dateRangeInput('dateRange',label = NA, separator = NULL, start = Sys.Date(), end = Sys.Date() + 2),tags$br(),\n                              tags$br(), div(class=\"rn\", tags$span(\"Number of hotels to display: \"), selectInput(\"results_number\",label=NA, c(5, 10, 20, \"all\"=\"all\"), selected = \"all\")),\n                              div(class=\"buttons\", actionButton(\"search\", \"Search\"), actionButton(\"clear\", \"Clear\"))\n                          )\n                      )\n                  )),\n             #wellPanel(verbatimTextOutput(\"results\")),\n             uiOutput(\"results_count\"),\n             div(class = \"busy\", img(src=\"img/busy.gif\")),\n             uiOutput(\"hotels_table\")\n             #tableOutput(\"results\")\n      ),\n      column(8,   div(class = \"busy\", img(src=\"img/busy.gif\")), leafletOutput(\"map\", height = \"100%\"))\n    ),\n    div(class=\"footer\", tags$p(class=\"text-muted\", \"Hitmap uses data from \", tags$a(href=\"https://data.sfgov.org\", \"SF Open Data\"), \" /\", tags$a(href=\"https://sandbox.amadeus.com\", \"Amadeus\"),  \" /\", tags$a(href=\"http://developer.citygridmedia.com\", \"CityGrid\"))),\n    tags$head(tags$script(src=\"js/busy.js\")),\n    tags$head(tags$script(src=\"js/nlform.js\")),\n    HTML(\"<script>var nlform = new NLForm( document.getElementById( 'nl-form' ) );</script>\"),\n    HTML(\"<script type='text/javascript'>(function() {var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = '//api.usersnap.com/load/'+'07f0c9fc-e99a-43c8-9d4e-0d225868d253.js';var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);})();</script>\")\n)))",
+    "created" : 1461802013768.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1520586931",
+    "id" : "C3C6F44E",
+    "lastKnownWriteTime" : 1462444378,
+    "last_content_update" : 1462444378085,
+    "path" : "~/Downloads/hitmap1/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

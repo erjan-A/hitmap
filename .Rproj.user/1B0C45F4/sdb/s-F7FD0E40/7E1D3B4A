@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1462460320220.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7E1D3B4A",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1462460320220,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "09bf0aoqno",
+        "caption" : "attractions",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=attractions&cache_key=09bf0aoqno",
+        "displayedObservations" : 196,
+        "environment" : "",
+        "object" : "attractions",
+        "totalObservations" : 196,
+        "variables" : 26
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

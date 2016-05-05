@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(httr)\nlibrary(httpuv)\nlibrary(jsonlite)\nlibrary(base64enc)\nlibrary(dplyr)\n\nconsumerKey = \"1sHLetbrWRuoOWbAHeK2JN6IATsrOwE1\"\n\nHitMap_hotels <- function(checkIn, checkOut) {\n  scheme <- \"http\"\n  host <- \"api.sandbox.amadeus.com/v1.2\"\n  \n  # Build API URL.\n  url <- paste0(scheme, \"://\", host, \"/hotels/search-box?south_west_corner=37.70827%2C%20-122.523994&north_east_corner=37.815615%2C%20-122.35302&check_in=\", checkIn, \"&check_out=\", checkOut, \"&number_of_results=150&apikey=\", consumerKey)\n  \n  # Make request.\n  results <- data.frame(jsonlite::fromJSON(url, flatten = TRUE))\n  \n  # Get Json Result\n  return(results)\n}\n\n#Get request Examples\n#result <- GET(\"http://api.sandbox.amadeus.com/v1.2/hotels/search-circle?latitude=37.793344&longitude=-122.403101&radius=50&check_in=2016-04-28&check_out=2016-04-30&number_of_results=50&apikey=1sHLetbrWRuoOWbAHeK2JN6IATsrOwE1\")\n\n\n",
+    "created" : 1461962224694.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3579462554",
+    "id" : "ACAC2F45",
+    "lastKnownWriteTime" : 1462268382,
+    "last_content_update" : 1462268382274,
+    "path" : "~/Downloads/hitmap1/API.R",
+    "project_path" : "API.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
