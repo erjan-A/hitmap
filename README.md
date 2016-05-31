@@ -4,7 +4,7 @@ Hitmap is prototype webapp which evaluates the neighborhood of the hotels within
 Technologies used: R with Rstudio, Shiny, Leaflet, hosted on Shinyapps.io
 
 
-<img src="https://photos-5.dropbox.com/t/2/AACVEzCQ7_ZaGXoi5n0emeIjEoqUmpuu0JpIQzg5cueq5Q/12/22691492/png/32x32/3/1463122800/0/2/ht.png/EKvBhhEYkfwYIAEoAQ/dcPqmAoRdFlxAWQlaV9G36rsOjHZgiKigZgCug2AxLc?size_mode=3&size=2048x1536" width="70%">
+<img src="https://dl.dropboxusercontent.com/s/x4w3ett7mf6speu/Screen%20Shot%202016-05-05%20at%207.38.49%20AM.png?dl=0" width="70%">
 
 Hitmap runs on a ranking algorithm that uses city data from sources related to outdoor activities, crime incidents, popular sightseeing spots, shopping malls and more. The map details which areas are the most suitable for the traveler based on his or her inputs (in green), which are less (in yellow) and which are the least suitable (in red).
 
@@ -12,7 +12,7 @@ This is a prototype which solves following job story:
 * When I am planning my travel with family, I want to book a hotel/apartment at a safer and cleaner place of city, so that we will feel calm and secure with a minimum danger and harm to health of my family.
 
 
-<img src="https://www.dropbox.com/s/x4w3ett7mf6speu/Screen%20Shot%202016-05-05%20at%207.38.49%20AM.png?dl=0" width="70%">
+<img src="https://dl.dropboxusercontent.com/s/h7nj291ky3h5jif/ht.png?dl=0" width="70%">
 
 
 **Examples of other user job stories**
@@ -24,4 +24,4 @@ This is a prototype which solves following job story:
 
 **Hitmap score**
 
-<img src="https://photos-6.dropbox.com/t/2/AADxxoS_2yRwvovMvn72z1UnrDfLuRy-YnlOWcT8508BnQ/12/22691492/png/32x32/3/1463122800/0/2/Screen%20Shot%202016-05-12%20at%207.23.49%20PM.png/EKvBhhEYk_wYIAEoAQ/RjWfwOkdqk2050udJHfxp1Cma3dwauiM2u7fRgJ9VQE?size_mode=3&size=2048x1536" width="70%">
+<img src="https://dl.dropboxusercontent.com/s/zmrtubt3p1p069f/Screen%20Shot%202016-05-12%20at%207.23.49%20PM.png?dl=0" width="70%">
