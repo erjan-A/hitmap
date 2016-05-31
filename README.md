@@ -1,8 +1,6 @@
 # hitmap
 Hitmap is prototype webapp which evaluates the neighborhood of the hotels within a city thus easing the travel research for travelers and helping them to find the most suitable place to stay that fits his or her travel needs and context.
 
-[Demo hitmap](https://hitmap.shinyapps.io/hitmap/) P.S. sorry, slow server
-
 Technologies used: R with Rstudio, Shiny, Leaflet, hosted on Shinyapps.io
 
 
@@ -14,7 +12,7 @@ This is a prototype which solves following job story:
 * When I am planning my travel with family, I want to book a hotel/apartment at a safer and cleaner place of city, so that we will feel calm and secure with a minimum danger and harm to health of my family.
 
 
-<img src="https://photos-3.dropbox.com/t/2/AADNytd0KYW-5PD-JZ1ekU7927T_LYo5cuOZ7Eeqlo6Wzg/12/22691492/png/32x32/3/1463122800/0/2/Screen%20Shot%202016-05-05%20at%207.38.49%20AM.png/EKvBhhEYkvwYIAEoAQ/vCP7Rm7XBhOpTfBC2gQagJsbwdfYW1CI9wI94D_HXx0?size_mode=3&size=2048x1536" width="70%">
+<img src="https://www.dropbox.com/s/x4w3ett7mf6speu/Screen%20Shot%202016-05-05%20at%207.38.49%20AM.png?dl=0" width="70%">
 
 
 **Examples of other user job stories**
